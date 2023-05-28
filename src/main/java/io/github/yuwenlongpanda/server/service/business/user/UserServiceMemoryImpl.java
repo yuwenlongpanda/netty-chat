@@ -1,4 +1,4 @@
-package io.github.yuwenlongpanda.server.service;
+package io.github.yuwenlongpanda.server.service.business.user;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,6 +1,7 @@
 package io.github.yuwenlongpanda.protocol;
 
-import io.github.yuwenlongpanda.config.Config;
+import io.github.yuwenlongpanda.common.Serializer;
+import io.github.yuwenlongpanda.common.config.Config;
 import io.github.yuwenlongpanda.pojo.Message;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandler;

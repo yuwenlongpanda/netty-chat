@@ -1,9 +1,9 @@
 package io.github.yuwenlongpanda.server.service.im;
 
 import io.github.yuwenlongpanda.pojo.*;
-import io.github.yuwenlongpanda.server.session.Group;
-import io.github.yuwenlongpanda.server.session.GroupSession;
-import io.github.yuwenlongpanda.server.session.GroupSessionFactory;
+import io.github.yuwenlongpanda.server.service.business.group.Group;
+import io.github.yuwenlongpanda.server.service.business.group.GroupSession;
+import io.github.yuwenlongpanda.server.service.business.group.GroupSessionFactory;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 

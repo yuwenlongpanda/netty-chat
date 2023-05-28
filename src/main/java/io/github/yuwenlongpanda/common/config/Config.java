@@ -1,6 +1,6 @@
-package io.github.yuwenlongpanda.config;
+package io.github.yuwenlongpanda.common.config;
 
-import io.github.yuwenlongpanda.protocol.Serializer;
+import io.github.yuwenlongpanda.common.Serializer;
 
 import java.io.IOException;
 import java.io.InputStream;

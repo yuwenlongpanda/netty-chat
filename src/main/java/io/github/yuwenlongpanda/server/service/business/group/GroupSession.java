@@ -1,4 +1,4 @@
-package io.github.yuwenlongpanda.server.session;
+package io.github.yuwenlongpanda.server.service.business.group;
 
 import io.netty.channel.Channel;
 

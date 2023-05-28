@@ -1,4 +1,4 @@
-package io.github.yuwenlongpanda.server.service;
+package io.github.yuwenlongpanda.server.service.business.user;
 
 public abstract class UserServiceFactory {
 

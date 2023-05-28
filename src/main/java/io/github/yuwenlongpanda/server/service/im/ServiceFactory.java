@@ -1,6 +1,6 @@
 package io.github.yuwenlongpanda.server.service.im;
 
-import io.github.yuwenlongpanda.config.Config;
+import io.github.yuwenlongpanda.common.config.Config;
 
 import java.io.IOException;
 import java.io.InputStream;

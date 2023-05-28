@@ -11,6 +11,7 @@ public abstract class Message implements Serializable {
 
     /**
      * 根据消息类型字节，获得对应的消息 class
+     *
      * @param messageType 消息类型字节
      * @return 消息 class
      */
@@ -47,7 +48,7 @@ public abstract class Message implements Serializable {
     /**
      * 响应类型 byte 值
      */
-    public static final int  RPC_MESSAGE_TYPE_RESPONSE = 102;
+    public static final int RPC_MESSAGE_TYPE_RESPONSE = 102;
 
     private static final Map<Integer, Class<? extends Message>> messageClasses = new HashMap<>();
 
@@ -66,8 +67,6 @@ public abstract class Message implements Serializable {
         messageClasses.put(GroupChatResponseMessage, GroupChatResponseMessage.class);
         messageClasses.put(GroupMembersRequestMessage, GroupMembersRequestMessage.class);
         messageClasses.put(GroupMembersResponseMessage, GroupMembersResponseMessage.class);
-        messageClasses.put(RPC_MESSAGE_TYPE_REQUEST, RpcRequestMessage.class);
-        messageClasses.put(RPC_MESSAGE_TYPE_RESPONSE, RpcResponseMessage.class);
     }
 
 }

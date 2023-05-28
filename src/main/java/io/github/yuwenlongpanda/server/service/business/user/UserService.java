@@ -1,4 +1,4 @@
-package io.github.yuwenlongpanda.server.service;
+package io.github.yuwenlongpanda.server.service.business.user;
 
 /**
  * 用户管理接口

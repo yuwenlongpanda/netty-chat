@@ -2,7 +2,7 @@ package io.github.yuwenlongpanda.server.service.im;
 
 import io.github.yuwenlongpanda.pojo.ChatRequestMessage;
 import io.github.yuwenlongpanda.pojo.ChatResponseMessage;
-import io.github.yuwenlongpanda.server.session.SessionFactory;
+import io.github.yuwenlongpanda.server.service.business.session.SessionFactory;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 
